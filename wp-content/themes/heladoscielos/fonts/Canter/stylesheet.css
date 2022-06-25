@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'Canter Bold Strips';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.eot#iefix') format('embedded-opentype'),
-        url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.woff2') format('woff2'),
+    
+    src: local('Canter Bold Strips')
+         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldStrips.ttf') format('truetype');
+    
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -12,8 +13,7 @@
 
 @font-face {
     font-family: 'Canter';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold.eot#iefix') format('embedded-opentype'),
+    src: local('Canter')
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold.ttf') format('truetype');
@@ -24,8 +24,7 @@
 
 @font-face {
     font-family: 'Canter Bold 3D';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold3D.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold3D.eot#iefix') format('embedded-opentype'),
+    src: local('Canter Bold 3D')
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold3D.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold3D.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Bold3D.ttf') format('truetype');
@@ -36,8 +35,7 @@
 
 @font-face {
     font-family: 'Canter';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Light.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Light.eot#iefix') format('embedded-opentype'),
+    src: local('Canter')
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Light.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Light.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Light.ttf') format('truetype');
@@ -48,8 +46,7 @@
 
 @font-face {
     font-family: 'Canter Bold Shadow';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldShadow.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldShadow.eot#iefix') format('embedded-opentype'),
+    src: local('Canter Bold Shadow')
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldShadow.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldShadow.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-BoldShadow.ttf') format('truetype');
@@ -60,8 +57,7 @@
 
 @font-face {
     font-family: 'Canter Outline';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Outline.eot');
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Outline.eot#iefix') format('embedded-opentype'),
+    src: local('Canter Outline')
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Outline.woff2') format('woff2'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Outline.woff') format('woff'),
         url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Canter/Canter-Outline.ttf') format('truetype');
