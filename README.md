@@ -10,7 +10,7 @@ El diseño de la plantilla a sido realizada usando los programmas: <b>Figma y Ph
 para despues darle el diseño visual (colores, tipografias, imagenes etc..) y por ultimo programarlo con la tecnologia de WORDPRESS, ademas de usar lenguajes 
 como HTML, CSS y JAVASCRIPT.
 
-<br><br>
+
 <h1>HELADOS CIELOS GITHUB</h1>
 En Github podremos ver la pagina web perfectamente utilizando el enlace https://luciamouriz.github.io/heladoscielos-web/ 
 <br>Lo que hice fue subir dos tipos de proyectos:
