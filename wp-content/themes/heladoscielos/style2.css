@@ -1,0 +1,357 @@
+/*
+Theme Name: Helados Cielos
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Lucia Sanchez Mouriz
+Author URI: https://wordpress.org/
+Description: Heladeria cielos, con tematica pinup, disfruta de nuestros sabores y textura que te subiran al cielo!
+Tags: helados, ice-cream , cielos, sky
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*--------------------------------------------------------------
+# Pagina HOME
+--------------------------------------------------------------*/
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'header' 
+                            'main'
+                            'footer' ;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40em;
+    height: 10em;
+    margin-left: 1em;
+
+    grid-area: header;
+}
+
+
+main{
+    grid-area: main;
+}
+
+.menu-item-31 , .menu-item-30, .menu-item-29, .menu-item-106{
+    position: relative;
+    z-index: 2;
+    
+}
+.contenedor-menu-img{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    top: -18em;
+	left:45em;
+}
+
+
+.header-menu-img{
+    width: 10em;
+    height: 20em;
+}
+
+
+/*Para que las imagenes no tengan espacios una debajo de la otra*/
+img{
+    display: block;
+}
+
+/*Contenedor de la promocion*/
+.form-main-sub{
+    /*Posicionamiento*/
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    top:155%;
+    left:10%;
+    width: 44%;
+    /*Estilo*/
+    font-family: 'Canter';
+    
+}
+
+.input-sub{
+    padding: 5px;
+    border: 1px #8E8E8E solid;
+    border-radius: 5px;
+    width: 15em;
+    font-family: 'Canter';
+    font-size: 25px;
+}
+
+.button-enviar{
+    width: 15.5em;
+    padding: 5px;
+    background-color: #40BBC3;
+    border:0px;
+    color:white;
+    font-family: 'Canter';
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-enviar:hover{
+    background-color: #46d3dd;
+}
+
+.button-enviar:active{
+    background-color: #39a9b0;
+}
+/*//////////////////////*/
+
+/*Imagen fija con corredor*/
+div.corredor{
+    background-image: url("./img/vintage.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.corredor .fija{
+    position: relative; /*Desplazar el elemento donde deberia estar, encima de otro*/
+}
+
+/*//////////////////////*/
+
+/*Tamaño de Letras*/
+
+.sBig{
+    font-size: 50px;
+}
+
+.sMedium{
+    font-size: 40px;
+    
+}
+
+.sSmall{
+    font-family: 'Quattrocento';
+    width: 30em;
+    font-size: 13px;
+}
+/*//////////////////////*/
+
+/*Seccion Influencers*/
+
+.influencer{
+    width: 352px;
+    height: 419px;
+}
+
+.influencer:hover{
+    transform: translateY(-12px);
+}
+
+.main-contenedor-influencers .contenedor-influencers{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:19% 12% 19% 12%;
+}
+
+/*//////////////////////*/
+.custom-logo {
+    width:6em;
+    height:6em;
+}
+
+/*Tamaño de imagenes*/
+.images{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*//////////////////////*/
+
+.img-fluid{
+    width:30%;
+    height:10%;
+}
+
+.contenedor-establecimientos{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 29em;
+    margin-left: 2em;
+    font-size: 32px;
+    gap:10px;
+    font-family: 'Quattrocento';
+}
+
+.titulo-establecimientos{
+    font-family: 'Canter Bold 3D';
+    font-size: 60px;
+}
+
+.input-ciudad{
+    width: 30em;
+    height: 35px;
+    font-size: 20px;
+    border: 1px #8E8E8E solid;
+    border-radius: 5px;
+}
+
+.button-buscar{
+    background-color: #40BBC3;
+    border:0px;
+    color:white;
+    font-family: 'Canter';
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 5em;
+    height: 40px;
+    
+}
+/**************FOOTER************************************/
+footer{
+    font-family: 'Quattrocento';
+    grid-area: footer;
+}
+
+.circle{
+    position: absolute;
+    left: 60em;
+    margin-top: 30px;
+    width: 415px;
+    height: 415px;
+    border-radius: 50%;
+    background: #FBB7B1;
+    text-align: center;
+}
+
+.horario{
+    font-family: 'Canter Bold 3D';
+    font-size: 52px;
+}
+
+.semanas{
+    font-family: 'Canter Outline';
+    font-size: 34px;
+}
+
+.horario-circle{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 25px;
+}
+
+/*Contenedores Politica de seguridad*/
+.contenedor-politica{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-top: 27em;
+    font-family: 'Quattrocento';
+    font-size: 20px;
+}
+
+.contenedor-politica a{
+    text-decoration: none;
+    color:black;
+}
+
+.img-simbolo{
+    width: 34px;
+    height: 34px;
+}
+
+/*Contenedores RRSS*/
+.contenedor-rrss{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Canter Bold 3D';
+    font-size: 50px;
+}
+
+.img-rrss{
+    width: 238px;
+    height: 113px;
+}
+/*//////////////////////*/
+/***************************************************************************************/
+/*CSS del menu que hemos añadido en Wordpress
+Apariencia - Menu - Gestionar con Vista previa - CSS Adicional 
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+		transition: 1.3s;
+	   
+}
+
+.menu a{
+	transition: color 0.8s linear 0.2s;
+    color:#40BBC3;
+    font-family: 'Canter',serif;
+    font-size: 23px;
+		text-decoration:none;
+		font-weight:bold;
+		display: block;
+		margin-left: 11px;
+}
+
+.menu a:hover{
+	color:white;
+}
+*/
+
+/*--------------------------------------------------------------
+# Pagina CONCTACTO
+--------------------------------------------------------------*/
+.form-contacto{
+    font-family: 'Quattrocento';
+    margin-left: 1em;
+
+}
+
+.titulo-contacto{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.form-contacto-grupo-inputs  {  
+    
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 15em;
+    font-size: 30px;
+}
+
+.form-contacto-grupo-inputs input{
+    height: 30px;
+    font-family: 'Quattrocento';
+}
