@@ -1,0 +1,398 @@
+/*
+Theme Name: Helados Cielos
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Lucia Sanchez Mouriz
+Author URI: https://wordpress.org/
+Description: Heladeria cielos, con tematica pinup, disfruta de nuestros sabores y textura que te subiran al cielo!
+Tags: helados, ice-cream , cielos, sky
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*Espacio en blanco derecho , con esto lo solucionamos*/
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/*body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 12rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-areas: 'header'
+                            'main'
+                                'footer';
+   
+}*/
+
+/*--------------------------------------------------------------
+# Pagina HOME
+--------------------------------------------------------------*/
+
+
+.header-contenedor{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 25px 40px 15px 40px;
+}
+
+
+/*Tamaño logo*/
+.custom-logo {
+    width: 6em;
+    height: 6em;
+}
+
+/*Menu de navegacion*/
+.menu-item-31, .menu-item-30, .menu-item-29, .menu-item-106{
+    z-index: 2;
+    
+}
+
+.menu-contenedor-img{
+    display: flex;
+    z-index: 1;
+    margin: -380px -33px;
+    
+}
+
+.header-menu-img{
+    width: 10em;
+    height: 20em;
+}
+/*//////////////////////*/
+/*Bloque formulario*/
+.main-contenedor-promo{
+    position: relative;
+}
+
+.main-form-promo{
+    /*Posicionamiento del formulario*/
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+    /*Tamaño del formulario.*/
+    width: 43%;
+    height: 100%;
+
+    /*Estilo*/
+    font-family: 'Canter';
+}
+
+.input-promo{
+    border: 1px #8E8E8E solid;
+    border-radius: 5px;
+    width: 80%;
+    font-family: 'Canter';
+    font-size: 3vw;
+}
+
+.button-enviar-promo{
+    width: 80%;
+    background-color: #40BBC3;
+    border:0px;
+    color:white;
+    font-family: 'Canter';
+    font-size: 3vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-enviar-promo:hover{
+    background-color: #46d3dd;
+}
+
+.button-enviar-promo:active{
+    background-color: #39a9b0;
+}
+/*Tamaño de Letras*/
+
+.text-big{
+    font-size: 5vw;
+}
+
+.text-medium{
+    font-size: 3vw;
+    
+}
+
+.text-small{
+    font-family: 'Quattrocento';
+    font-size: 1vw;
+}
+
+/*//////////////////////*/
+/*Bloque Fondos*/
+
+.fondo01{
+    background-image: url("http://localhost/img/fondo01.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vw;
+           
+}
+
+.fondo02{
+   
+    background-image: url("http://localhost/img/fondo02.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 70vw;
+
+}
+
+
+
+.fondo03{
+    background-image: url("http://localhost/img/fondo03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+
+}
+
+.fondo-fijo{
+    background-image: url("http://localhost/img/vintage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 50vw;
+}
+
+.fondo04{
+   
+    background-image: url("http://localhost/img/fondo04.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 80vw;
+}
+
+.footer-fondo{
+    background-image: url("http://localhost/img/footer.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 50vw;
+}
+/*//////////////////////*/
+/*Bloque Imagen 2 Helado*/
+.main-contenedor-helado{
+    position: relative;
+}
+.calcio , .gluten, .grasas{
+    position: absolute;
+    font-family: 'Canter';
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:10px;
+    width:5%;
+    height: 5%;
+
+}
+.calcio{
+    top:56%;
+    left:8.5%;
+}
+
+.grasas{
+    top:42%;
+    left:24%;
+}
+
+.gluten{
+    top:47%;
+    left:76.5%;
+}
+
+.saludable{
+    position: absolute;
+    font-family: 'Canter Bold 3D';
+    font-size: 7vw;
+    color:#40BBC3;
+    top: 75%;
+    left:30%;
+}
+/*//////////////////////*/
+/*Bloque Influencers*/
+
+.main-contenedor-influencers{
+    position: relative;
+}
+
+
+.img-influencers{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+}
+
+
+.influencer{
+    width: 30%;
+}
+
+.hastag{
+    position: absolute;
+    font-family: 'Quattrocento';
+    font-size: 4vw;
+    top:6%;
+    left:4%;
+
+}
+/*//////////////////////*/
+/*Bloque Establecimientos*/
+.contenedor-establecimientos{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 77%;
+    left: 2%;
+    font-size: 2vw;
+    gap:10px;
+    font-family: 'Quattrocento';
+
+}
+
+.titulo-establecimientos{
+    font-family: 'Canter Bold 3D';
+    font-size: 5vw;
+}
+
+.input-ciudad{
+    width: 50%;
+    font-size: 2vw;
+    border: 1px #8E8E8E solid;
+    border-radius: 5px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.button-buscar{
+    background-color: #40BBC3;
+    border:0px;
+    color:white;
+    font-family: 'Canter';
+    font-size: 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    
+    
+}
+
+/*//////////////////////*/
+/*Bloque Footer*/
+
+.footer-contenedor-principal{
+    position: relative;
+    font-size: 1.3vw;
+    font-family: 'Quattrocento';
+}
+
+.footer-circle{
+    position: absolute;
+    width: 33%;
+    height: 65%;
+    left: 65%;
+    top:3%;
+    border-radius: 50%;
+    background: #FBB7B1;
+}
+
+.horario{
+    font-family: 'Canter Bold 3D';
+    font-size: 4vw;
+}
+
+.semanas{
+    font-family: 'Canter Outline';
+    font-size: 2.5vw;
+}
+
+.footer-horario-circle{
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Contenedores Politica de seguridad*/
+.footer-contenedor-politica{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    top:80%;
+    font-family: 'Quattrocento';
+    font-size: 1.5vw;
+}
+
+.footer-contenedor-politica a{
+    text-decoration: none;
+    color:black;
+}
+
+.img-simbolo{
+    width: 34px;
+    height: 34px;
+}
+
+/*Contenedores RRSS*/
+.footer-contenedor-rrss{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 12%;
+    font-family: 'Canter Bold 3D';
+    font-size: 4vw;
+}
+
+.footer-img-rrss{
+    width: 40%;
+    height: 20%;
+}
+/*//////////////////////*/
+.images{
+    max-width:100%;
+}
+
+
+
+
