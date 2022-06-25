@@ -144,7 +144,7 @@ html, body {
 /*Bloque Fondos*/
 
 .fondo01{
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./img/fondo01.jpg);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo01.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
@@ -154,7 +154,7 @@ html, body {
 
 .fondo02{
    
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./img/fondo02.jpg);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo02.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
@@ -165,7 +165,7 @@ html, body {
 
 
 .fondo03{
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./img/fondo03.png);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo03.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,7 +174,7 @@ html, body {
 }
 
 .fondo-fijo{
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./mg/vintage.jpg);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/vintage.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -184,7 +184,7 @@ html, body {
 
 .fondo04{
    
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./img/fondo04.jpg);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo04.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
@@ -192,7 +192,7 @@ html, body {
 }
 
 .footer-fondo{
-    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos./img/footer.jpg);
+    background-image: url(https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/footer.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
