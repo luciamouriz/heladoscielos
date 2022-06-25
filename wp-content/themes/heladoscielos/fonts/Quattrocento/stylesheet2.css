@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Quattrocento';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento-Bold.woff2') format('woff2'),
-        url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento-Bold.woff') format('woff');
+    src: local('Quattrocento'),
+        url('https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento-Bold.woff2') format('woff2'),
+        url('https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +10,9 @@
 
 @font-face {
     font-family: 'Quattrocento';
-    src: url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento.woff2') format('woff2'),
-        url('http://github.com/luciamouriz/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento.woff') format('woff');
+    src: local('Quattrocento'),
+        url('https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento.woff2') format('woff2'),
+        url('https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/fonts/Quattrocento/Quattrocento.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
