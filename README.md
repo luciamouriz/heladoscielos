@@ -4,7 +4,7 @@ Pagina web de una Heladeria ficticia.
 
 Se a realizado este proyecto añadiendo desde 0 una plantilla en Wordpress. 
 <br> El diseño a sido realizado por mi misma realizando previamente un estudio detallado de la competencia y añadiendo asi algunas de las mejores opciones que funcionan y he visto mas viable.
-<br> Se a tratado dar un pequeño toque <b>'vintage'</b> añadiendo colores pasteles e imagenes de los 80s.
+<br> Se a tratado dar un pequeño toque <b>'vintage'</b> añadiendo colores pasteles e imagenes de los 50s.
 <br> <br>
 El diseño de la plantilla a sido realizada usando los programmas: <b>Figma y Photoshop</b>, en Figma hemos realizado previamente los wireframes (bocetos) 
 para despues darle el diseño visual (colores, tipografias, imagenes etc..) y por ultimo programarlo con la tecnologia de WORDPRESS, ademas de usar lenguajes 
