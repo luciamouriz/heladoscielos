@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/*
+Theme Name: Helados Cielos
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Lucia Sanchez Mouriz
+Author URI: https://wordpress.org/
+Description: Heladeria cielos, con tematica pinup, disfruta de nuestros sabores y textura que te subiran al cielo!
+Tags: helados, ice-cream , cielos, sky
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+header {
+  position: fixed;
+  z-index: 300;
+  width: 100%;
+  background-color: white;
+}
+
+.header-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 62px 0px 12px;
+}
+
+.custom-logo {
+  width: 25%;
+  height: 25%;
+}
+
+.menu {
+  display: flex;
+  gap: 67.7px;
+  transition: 1.3s;
+  list-style: none;
+}
+.menu a {
+  transition: color 0.5s linear 0.2s;
+  color: #40BBC3;
+  font-family: "Canter";
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: white;
+}
+
+.menu-item-31, .menu-item-30, .menu-item-29, .menu-item-106 {
+  z-index: 2;
+}
+
+.menu-contenedor-img {
+  display: flex;
+  z-index: 1;
+  margin: -380px -33px;
+}
+
+.header-menu-img {
+  width: 10em;
+  height: 20em;
+}
+
+.main-contenedor-principal {
+  margin-top: 10em;
+}
+
+.main-contenedor-promo {
+  position: relative;
+}
+.main-contenedor-promo .main-form-promo {
+  /*Posicionamiento del formulario*/
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /*Tamaño del formulario.*/
+  width: 43%;
+  height: 100%;
+  /*Estilo 1 Canter*/
+  font-family: "Canter";
+}
+.main-contenedor-promo .main-form-promo .input-promo {
+  border: 1px #8E8E8E solid;
+  border-radius: 0.5vw;
+  width: 80%;
+  font-family: "Canter";
+  font-size: 3vw;
+}
+.main-contenedor-promo .main-form-promo .button-enviar-promo {
+  width: 80%;
+  background-color: #40BBC3;
+  border: 0px;
+  color: white;
+  font-family: "Canter";
+  font-size: 3vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+.main-contenedor-promo .main-form-promo .button-enviar-promo:hover {
+  background-color: #46d3dd;
+}
+.main-contenedor-promo .main-form-promo .button-enviar-promo:active {
+  background-color: #39a9b0;
+}
+
+.fondo01 {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vw;
+}
+
+.fondo02 {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vw;
+}
+
+.fondo03 {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+}
+
+.fondo04 {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/fondo04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+}
+
+.footer-fondo {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+}
+
+.fondo-fijo {
+  background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/vintage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  background-attachment: fixed;
+}
+
+.main-contenedor-helado {
+  position: relative;
+}
+
+.calcio, .gluten, .grasas {
+  position: absolute;
+  text-align: center;
+  font-family: "Canter";
+  font-size: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 5%;
+  height: 5%;
+}
+.calcio img, .gluten img, .grasas img {
+  width: 100%;
+  height: 200%;
+}
+
+.calcio {
+  top: 56%;
+  left: 8.5%;
+}
+
+.grasas {
+  top: 42%;
+  left: 24%;
+}
+
+.gluten {
+  top: 47%;
+  left: 76.5%;
+}
+
+.saludable {
+  position: absolute;
+  font-family: "Canter Bold 3D";
+  font-size: 7vw;
+  color: #40BBC3;
+  top: 75%;
+  left: 30%;
+}
+
+.main-contenedor-influencers {
+  position: relative;
+}
+.main-contenedor-influencers .img-influencers {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20%;
+}
+.main-contenedor-influencers .img-influencers .influencer {
+  width: 30%;
+}
+.main-contenedor-influencers .hastag {
+  position: absolute;
+  font-family: "Quattrocento";
+  top: 6%;
+  left: 4%;
+  font-size: 4vw;
+}
+
+.contenedor-establecimientos {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  top: 77%;
+  left: 2%;
+  font-size: 2vw;
+  font-family: "Quattrocento";
+}
+
+.titulo-establecimientos {
+  font-family: "Canter Bold 3D";
+  font-size: 5vw;
+}
+
+.input-ciudad {
+  width: 50%;
+  font-size: 2vw;
+  border: 1px #8E8E8E solid;
+  border-radius: 5px;
+}
+
+.row-ciudad {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.button-buscar {
+  background-color: #40BBC3;
+  border: 0px;
+  color: white;
+  font-family: "Canter";
+  font-size: 2vw;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
+/*//////////////////////*/
+.images {
+  max-width: 100%;
+}
+
+/*Tamaño de Letras*/
+.text-big {
+  font-size: 5vw;
+}
+
+.text-medium {
+  font-size: 3vw;
+}
+
+.text-small {
+  font-family: "Quattrocento";
+  font-size: 1vw;
+}
+
+.footer-contenedor-principal {
+  position: relative;
+  font-size: 1.3vw;
+  font-family: "Quattrocento";
+}
+
+.footer-circle {
+  position: absolute;
+  width: 33%;
+  height: 65%;
+  left: 65%;
+  top: 3%;
+  border-radius: 50%;
+  background: #FBB7B1;
+}
+.footer-circle .horario {
+  font-family: "Canter Bold 3D";
+  font-size: 4vw;
+}
+.footer-circle .semanas {
+  font-family: "Canter Outline";
+  font-size: 2.5vw;
+}
+.footer-circle .footer-horario-circle {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*Contenedores Politica de seguridad*/
+.footer-contenedor-politica {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  top: 80%;
+  font-family: "Quattrocento";
+  font-size: 1.5vw;
+}
+.footer-contenedor-politica a {
+  text-decoration: none;
+  color: black;
+}
+.footer-contenedor-politica .img-simbolo {
+  width: 34px;
+  height: 34px;
+}
+
+/*Contenedores RRSS*/
+.footer-contenedor-rrss {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 12%;
+  font-family: "Canter Bold 3D";
+  font-size: 4vw;
+}
+
+.footer-img-rrss {
+  width: 40%;
+  height: 20%;
+}
+
+.menu-mobile-enlace {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-boton-mobile {
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.menu-boton-mobile span {
+  display: flex;
+  margin-bottom: 10px;
+  width: 37px;
+  height: 4px;
+  position: relative;
+  background: #90D7DC;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all 0.2s linear;
+}
+
+.menu-boton-mobile.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: #90D7DC;
+}
+
+.menu-boton-mobile.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.menu-boton-mobile.close span:nth-child(3) {
+  display: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 767px) {
+  .menu-contenedor {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .menu-boton-mobile {
+    visibility: initial;
+  }
+
+  .menu-mobile-enlace.show {
+    display: block;
+  }
+
+  .main-contenedor-promo .main-form-promo {
+    top: 10%;
+    left: 15%;
+    text-align: center;
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .main-contenedor-promo .main-form-promo .input-promo {
+    border-radius: 1vw;
+    width: 85%;
+    height: 4%;
+    font-size: 6vw;
+  }
+  .main-contenedor-promo .main-form-promo .button-enviar-promo {
+    width: 85%;
+    height: 4%;
+    font-size: 6vw;
+  }
+  .main-contenedor-promo .main-form-promo .text-big {
+    font-size: 9vw;
+    letter-spacing: 11px;
+  }
+  .main-contenedor-promo .main-form-promo .text-medium {
+    font-size: 4.5vw;
+    font-family: "Quattrocento";
+  }
+  .main-contenedor-promo .main-form-promo .text-small {
+    font-family: "Quattrocento";
+    font-size: 2.5vw;
+  }
+
+  .fondo01 {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 235vw;
+  }
+
+  .fondo02 {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vw;
+  }
+}
