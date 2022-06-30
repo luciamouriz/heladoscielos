@@ -466,7 +466,7 @@ html, body {
   }
 
   .main-contenedor-promo .main-form-promo {
-    top: 15%;
+    top: 7%;
     left: 12%;
     text-align: center;
     width: 80%;
@@ -508,7 +508,7 @@ html, body {
 
   .fondo01 {
     background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo01.png");
-    height: 235vw;
+    height: 300vw;
   }
 
   .fondo02 {
@@ -570,10 +570,11 @@ html, body {
   }
   .texto-fondo-fijo .text-big {
     font-size: 7vw;
+    margin-bottom: 10px;
   }
   .texto-fondo-fijo .text-medium {
     font-size: 3.5vw;
-    line-height: 15px;
+    line-height: 1.3em;
   }
 
   .main-contenedor-influencers .hastag {
