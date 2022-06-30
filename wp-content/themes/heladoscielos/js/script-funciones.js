@@ -46,11 +46,11 @@ navWrapper.addEventListener('click',e => {
     //Cantidad de scroll que hemos bajado
     let scrollTop = document.documentElement.scrollTop;
     if(scrollTop>logo.scrollTop){
-      logo.style.width="15%"
-      logo.style.height="15%"
-    }else{
       logo.style.width="25%"
       logo.style.height="25%"
+    }else{
+      logo.style.width="30%"
+      logo.style.height="30%"
     }
     
   }
