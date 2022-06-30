@@ -28,6 +28,7 @@ for (let i = 0; i < array.length; ++i) {
 const toggleButton = document.getElementById('menu-boton-mobile')
 const navWrapper = document.getElementById('nav')
 
+
 toggleButton.addEventListener('click',() => {
   toggleButton.classList.toggle('close')
   navWrapper.classList.toggle('show')
@@ -38,3 +39,20 @@ navWrapper.addEventListener('click',e => {
       toggleButton.classList.remove('close')
     }
   })
+
+  function logoScroll(){
+    const logo = document.querySelector('.custom-logo')
+
+    //Cantidad de scroll que hemos bajado
+    let scrollTop = document.documentElement.scrollTop;
+    if(scrollTop>logo.scrollTop){
+      logo.style.width="15%"
+      logo.style.height="15%"
+    }else{
+      logo.style.width="25%"
+      logo.style.height="25%"
+    }
+    
+  }
+
+  window.addEventListener('scroll',logoScroll)

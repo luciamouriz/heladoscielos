@@ -364,6 +364,9 @@ header {
 
 .menu-boton-mobile {
   z-index: 200;
+  border: 1px #40BBC3 solid;
+  border-radius: 6px;
+  padding: 10px 10px 0px 10px;
   width: 40px;
   height: 40px;
   display: flex;
@@ -481,5 +484,92 @@ html, body {
     background-size: cover;
     background-position: center;
     height: 130vw;
+  }
+
+  .fondo-fijo {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo-fijo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+  }
+
+  .fondo03 {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+  }
+
+  .fondo04 {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/fondo04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vw;
+  }
+
+  .calcio, .gluten, .grasas {
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 10%;
+    height: 10%;
+  }
+
+  .calcio {
+    top: 33%;
+    left: 6.5%;
+  }
+
+  .grasas {
+    top: 33.5%;
+    left: 33.5%;
+  }
+
+  .gluten {
+    top: 30%;
+    left: 85%;
+  }
+
+  .saludable {
+    font-size: 13vw;
+    top: 83%;
+    left: 8%;
+  }
+
+  .main-contenedor-influencers .hastag {
+    font-size: 6vw;
+  }
+
+  .contenedor-establecimientos {
+    font-size: 4vw;
+    top: 75%;
+  }
+
+  .titulo-establecimientos {
+    font-size: 7vw;
+  }
+
+  .input-ciudad {
+    width: 70%;
+    font-size: 4vw;
+  }
+
+  .button-buscar {
+    font-size: 4vw;
+    width: 20%;
+  }
+
+  .footer-fondo {
+    background-image: url("https://luciamouriz.github.io/heladoscielos-web/wp-content/themes/heladoscielos/img/mobile/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
   }
 }
